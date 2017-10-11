@@ -4,5 +4,6 @@ using UnityEngine;
 
 public interface IFloatCurve
 {
+	float Evaluate(float t);
 }
 
