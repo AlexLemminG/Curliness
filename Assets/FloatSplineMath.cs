@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FloatSplineMath {
+public static class FloatSplineMath {
 	const int c_iterationsCount = 10;
 	public static float FindClosest(FloatSpline sameDerivativeSignSpline, float targetValue){
-		float stepSize = 0.25f;
+		float stepSize = 0.5f;
 		float result = 0.5f;
 		for (int i = 0; i < c_iterationsCount; i++) {
 			float left = result - stepSize;
@@ -31,6 +31,7 @@ public class FloatSplineMath {
 			}
 			stepSize *= 0.5f;
 		}
+		result = Mathf.Clamp01 (result);
 		return result;
 	}
 }
