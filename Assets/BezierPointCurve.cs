@@ -7,6 +7,15 @@ public class BezierPointCurve : IPointCurve{
 
 	List<Point> m_supportingList = new List<Point>();
 
+	public BezierPointCurve (List<Point> controlPoints)
+	{
+		this.controlPoints = new List<Point>(controlPoints);
+	}
+	public BezierPointCurve ()
+	{
+	}
+	
+
 	public Point Evaluate(float t){
 		while (m_supportingList.Count < controlPoints.Count) {
 			m_supportingList.Add (Point.identity);

@@ -209,7 +209,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 871632504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.938, y: 0, z: 1.081}
+  m_LocalPosition: {x: -0.45, y: 0, z: 2.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1185390277}
@@ -237,7 +237,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 906124988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.161, y: 0, z: 4.801}
+  m_LocalPosition: {x: -2.48, y: 0, z: 0.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1185390277}
@@ -356,15 +356,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185390275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c37c810ceba334dd48b3e3a42043e6da, type: 3}
+  m_Script: {fileID: 11500000, guid: c210e7f166dba4c3193177520bca8f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlPoints:
-  - {fileID: 1651821456}
-  - {fileID: 871632505}
-  - {fileID: 1727093411}
-  - {fileID: 906124989}
-  pointsCount: 53
+  pointsCount: 30
   normalize: 1
 --- !u!4 &1185390277
 Transform:
@@ -411,7 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 0
-  bezierCurve: {fileID: 1185390276}
+  bezierCurve: {fileID: 0}
 --- !u!4 &1526811165
 Transform:
   m_ObjectHideFlags: 0
@@ -475,7 +470,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1727093410}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.11, y: 0, z: 1.29}
+  m_LocalPosition: {x: -0.94, y: 0, z: -2.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1185390277}
